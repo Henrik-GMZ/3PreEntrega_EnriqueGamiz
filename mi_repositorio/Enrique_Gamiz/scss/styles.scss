@@ -1,0 +1,32 @@
+// variables
+$color-letra: rgb(255, 0, 0);
+$color-principal:black;
+
+
+
+body{
+    background: $color-principal;
+    
+}
+
+h1 {
+    color: $color-letra;
+}
+
+// quise aplicar mixin en lo que es el carousel pero como no me funcionó sass en ningún momento solo quedó esto y no se si es aplicable.
+//'Error reading scss: no such file or directory.' es el error que me figuraba, todavía intento arreglarlo.
+//Estoy pensando en empezar de 0 todo el projecto también, así no me pierdo y me organizo mejor. 
+@mixin carousel {
+    height: 500px;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 5px;
+}
+
+.carousel-item {
+    @include
+  }
+
+.carousel {
+    @include
+}
